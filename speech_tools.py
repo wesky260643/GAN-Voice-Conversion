@@ -11,7 +11,6 @@ def load_wavs(wav_dir, sr):
     for file in glob.glob(wav_dir + '/*.wav'):
         wav, _ = librosa.load(file, sr=sr, mono=True)
         wavs.append(wav)
-
     return wavs
 
 

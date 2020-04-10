@@ -17,8 +17,8 @@ os.makedirs(log_dir, exist_ok=True)
 data_dir = os.path.join('datasets', dataset)
 exp_dir = os.path.join('experiments', dataset)
 
-train_A_dir = os.path.join(data_dir, 'vcc2018_training', src_speaker)
-train_B_dir = os.path.join(data_dir, 'vcc2018_training', trg_speaker)
+train_A_dir = os.path.join(data_dir, 'vcc2018_training.speakers', src_speaker)
+train_B_dir = os.path.join(data_dir, 'vcc2018_training.speakers', trg_speaker)
 exp_A_dir = os.path.join(exp_dir, src_speaker)
 exp_B_dir = os.path.join(exp_dir, trg_speaker)
 
